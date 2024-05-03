@@ -1,11 +1,12 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/Portfolio/',  // Ensure this matches the GitHub Pages subpath
+  plugins: [react()],  // Here is where the 'react' import is used
+  base: '/Portfolio/',
   build: {
-    outDir: 'docs',  // This should match the directory name you're deploying
+    outDir: 'docs',
   },
   // Add other configurations as needed
 });
