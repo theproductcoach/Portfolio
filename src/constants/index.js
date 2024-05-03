@@ -27,8 +27,12 @@ import {
     carrent,
     jobit,
     tripguide,
+    samegamemulti,
     threejs,
     openai,
+    contracts,
+    brandpages,
+    breaks,
   } from "../assets";
   
   export const navLinks = [
@@ -226,9 +230,9 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Contracts and Documents",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Tanda\’s contracts and documents feature allows you to send, accept, store, and alter agreements digitally.",
       tags: [
         {
           name: "react",
@@ -243,13 +247,34 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: contracts,
+      source_code_link: "https://www.tanda.co/features/contract-management-software/",
     },
     {
-      name: "Job IT",
+      name: "Breaks",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Tanda\’s breaks solution is the most automated and advanced breaks solution on the market.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "mongodb",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: breaks,
+      source_code_link: "https://www.tanda.co/features/breaks/",
+    },
+    {
+      name: "Brand Pages",
+      description:
+        "Innovative custom landing pages for brands as sold by retail media companies.",
       tags: [
         {
           name: "react",
@@ -264,13 +289,13 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: brandpages,
+      source_code_link: "https://developers.citrusad.com/integration/reference/what-ads-can-citrusad-serve-1#:~:text=any%20screen%20size.-,Brand%20pages,on%20a%20per%20page%20basis.",
     },
     {
-      name: "Trip Guide",
+      name: "Same Game Multi",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "The most innovative betting product in Australia, allowing users to build the most complex multi-bets ever.",
       tags: [
         {
           name: "nextjs",
@@ -285,8 +310,8 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: samegamemulti,
+      source_code_link: "https://help.ladbrokes.com.au/s/article/01199",
     },
   ];
   
