@@ -33,6 +33,9 @@ import {
     contracts,
     brandpages,
     breaks,
+    kris,
+    brad,
+    adam,
   } from "../assets";
   
   export const navLinks = [
@@ -204,27 +207,27 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+        "Over nearly a decade of collaboration, I've seen Will excel as a product manager. His deep understanding and strategic vision consistently deliver superior solutions that exceed expectations.",
+      name: "Kris Robinson",
+      designation: "Executive Director",
+      company: "PayShield",
+      image: kris,
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
+        "Will excelled in product management at CitrusAd, adeptly handling start-up pressures. His innovative product work under tight deadlines was crucial to our global expansion and market leadership.",
+      name: "Brad Moran",
+      designation: "CEO",
+      company: "CitrusAd",
+      image: brad,
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+        "Will is a strong product leader, he expertly balances team development with innovative product delivery. At Tanda his ability to lead and inspire resulted in both team growth and product success.",
+      name: "Adam Lyons",
+      designation: "VP Engineering",
+      company: "Tanda (Workforce.com)",
+      image: adam,
     },
   ];
   

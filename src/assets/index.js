@@ -10,6 +10,11 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 import linkout from "./linkout.svg";
 
+import kris from "./kris.png";
+import brad from "./brad.jpeg";
+import adam from "./adam.jpeg";
+
+
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
@@ -39,10 +44,10 @@ import ladbrokes from "./company/ladbrokes.jpg"
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
-import samegamemulti from "./samegamemulti.png"
-import contracts from "./contracts.png"
-import brandpages from "./brandpages.jpg"
-import breaks from "./breaks.png"
+import samegamemulti from "./samegamemulti.png";
+import contracts from "./contracts.png";
+import brandpages from "./brandpages.jpg";
+import breaks from "./breaks.png";
 
 export {
   logo,
@@ -84,4 +89,7 @@ export {
   contracts,
   brandpages,
   breaks,
+  kris,
+  brad,
+  adam,
 };
