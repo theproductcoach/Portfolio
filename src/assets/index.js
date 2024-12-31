@@ -39,6 +39,7 @@ import vision6 from "./company/vision6.png";
 import productcoach from "./company/productcoach.png"
 import citrusad from "./company/citrusad.jpg"
 import ladbrokes from "./company/ladbrokes.jpg"
+import genieai from "./company/genieai.jpg"
 
 
 import carrent from "./carrent.png";
@@ -79,6 +80,7 @@ export {
   tanda,
   vision6,
   productcoach,
+  genieai,
   citrusad,
   ladbrokes,
   carrent,

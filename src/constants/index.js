@@ -22,6 +22,7 @@ import {
     tanda,
     vision6,
     productcoach,
+    genieai,
     citrusad,
     ladbrokes, 
     carrent,
@@ -132,6 +133,20 @@ import {
   ];
   
   const experiences = [
+    {
+      title: "Lead Product Manager",
+      company_name: "Genie AI",
+      company_url: "https://genieai.co",
+      icon: genieai,
+      iconBg: "#E6DEDD",
+      date: "May 2024 - Present",
+      points: [
+        "Developed Genie AI’s initial pricing model, boosting sign-up conversions by 20% and steering future pricing strategies.",
+        "Introduced the legal tech industry’s first real-time collaboration feature, doubling AI adoption to 40%.",
+        "Improved product usability through extensive customer research, increasing user engagement by 10% and first-time AI usage to over 40%.",
+        "Pioneered multimodal inputs and agentic architecture to enhance document management and creation, enriching user experience."
+      ],
+    },
     {
       title: "Product Management Coach",
       company_name: "The Product Coach",
