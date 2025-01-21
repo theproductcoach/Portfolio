@@ -5,29 +5,19 @@ import {
     web,
     javascript,
     typescript,
-    html,
-    css,
     reactjs,
-    redux,
     tailwind,
     nodejs,
     mongodb,
     git,
     figma,
-    docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
+    langchain,
     tanda,
     vision6,
     productcoach,
     genieai,
     citrusad,
     ladbrokes, 
-    carrent,
-    jobit,
-    tripguide,
     samegamemulti,
     threejs,
     openai,
@@ -74,14 +64,6 @@ import {
   ];
   
   const technologies = [
-    // {
-    //   name: "HTML 5",
-    //   icon: html,
-    // },
-    // {
-    //   name: "CSS 3",
-    //   icon: css,
-    // },
     {
       name: "JavaScript",
       icon: javascript,
@@ -94,10 +76,14 @@ import {
       name: "React JS",
       icon: reactjs,
     },
-    // {
-    //   name: "Redux Toolkit",
-    //   icon: redux,
-    // },
+    {
+      name: "openai",
+      icon: openai,
+    },
+    {
+      name: "LangChain",
+       icon: langchain,
+    },
     {
       name: "Tailwind CSS",
       icon: tailwind,
@@ -121,14 +107,6 @@ import {
     {
       name: "figma",
       icon: figma,
-    },
-    // {
-    //   name: "docker",
-    //   icon: docker,
-    // },
-    {
-      name: "openai",
-      icon: openai,
     },
   ];
   
@@ -266,7 +244,7 @@ import {
         },
       ],
       image: contracts,
-      source_code_link: "https://www.tanda.co/features/contract-management-software/",
+      source_code_link: "https://workforce.com/uk/software/contracts",
     },
     {
       name: "Breaks",
@@ -287,7 +265,7 @@ import {
         },
       ],
       image: breaks,
-      source_code_link: "https://www.tanda.co/features/breaks/",
+      source_code_link: "https://help.workforce.com/en/articles/6953376-setting-up-and-managing-automatic-breaks",
     },
     {
       name: "Brand Pages",
@@ -329,7 +307,7 @@ import {
         },
       ],
       image: samegamemulti,
-      source_code_link: "https://help.ladbrokes.com.au/s/article/01199",
+      source_code_link: "https://help.ladbrokes.com.au/s/articlehttps://help.ladbrokes.com.au/s/article/same-game-multi-bets/01199",
     },
   ];
   
