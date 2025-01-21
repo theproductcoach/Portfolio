@@ -48,17 +48,32 @@ const Navbar = () => {
 
         <ul className='list-none hidden sm:flex flex-row gap-10'>
           {navLinks.map((nav) => (
-            <li
-              key={nav.id}
-              className={`${
+           <li
+             key={nav.id}
+             className={`${
                 active === nav.title ? "text-white" : "text-secondary"
               } hover:text-white text-[18px] font-medium cursor-pointer`}
               onClick={() => setActive(nav.title)}
             >
-              <a href={`#${nav.id}`}>{nav.title}</a>
+             {nav.external ? (
+               // External link
+                <a 
+                  href={nav.url} 
+                 target="_blank" 
+                 rel="noreferrer"
+                >
+                  {nav.title}
+                </a>
+             ) : (
+               // Internal section link
+               <a href={`#${nav.id}`}>
+                 {nav.title}
+               </a>
+              )}
             </li>
           ))}
         </ul>
+
 
         <div className="sm:hidden flex flex-1 justify-end items-center">
           <img 

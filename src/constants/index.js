@@ -42,6 +42,12 @@ import {
       id: "contact",
       title: "Contact",
     },
+    {
+      id: "coaching",
+      title: "Coaching",
+      external: true,
+      url: "https://productcoach.io"
+    },
   ];
   
   const services = [
@@ -95,10 +101,6 @@ import {
     {
       name: "MongoDB",
       icon: mongodb,
-    },
-    {
-      name: "Three JS",
-      icon: threejs,
     },
     {
       name: "git",
@@ -270,7 +272,7 @@ import {
     {
       name: "Brand Pages",
       description:
-        "Innovative custom landing pages for brands as sold by retail media companies.",
+        "Innovative custom landing pages for brands as sold by retail media companies. A digital version of 'end-cap' advertising.",
       tags: [
         {
           name: "react",
