@@ -44,7 +44,7 @@ import {
     },
     {
       id: "coaching",
-      title: "Coaching",
+      title: "Coaching Website",
       external: true,
       url: "https://productcoach.io"
     },
